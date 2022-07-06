@@ -4,6 +4,8 @@
  import "react-date-range/dist/theme/default.css";//theme css file
 
 import { DateRangePicker} from "react-date-range";
+import { Button } from "@material-ui/core";
+import PeopleIcon from "@material-ui/icons/People";
 
 //  DATE PICKER COMPONENT
  function Search() {
@@ -16,7 +18,7 @@ import { DateRangePicker} from "react-date-range";
         key: "selectiom",
     };
 
-    function handleSelect(ranges){
+    function handleSelect(ranges){ 
         setStartDate(ranges.selection.startDate);
         setEndDate(ranges.selection.endDate);
     }
@@ -25,8 +27,16 @@ import { DateRangePicker} from "react-date-range";
      <div className='search'>
         <DateRangePicker ranges={
             [selectionRange]} onChange=
-            {handleSelect}
-        />
+            {handleSelect}/>
+            <h2>
+                Number of guests
+                <PeopleIcon/>
+            </h2>
+            <input min={0}
+            type="number"/>
+            <Button>
+                Search Airbnb
+            </Button>
      </div>
    )
  }
