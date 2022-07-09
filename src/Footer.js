@@ -3,7 +3,13 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+        <p> &copy;Airbnb clone! No rights
+            reserved - this is a demo! and learning purpose</p> 
+           <p>Privacy . Terms . Sitemap .
+            Company Details
+           </p>
+    </div>
   )
 }
 
