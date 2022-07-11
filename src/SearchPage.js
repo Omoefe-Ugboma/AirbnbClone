@@ -28,7 +28,7 @@ function SearchPage() {
           variant='outlined'>More filters</Button>
        </div>
        <SearchResult 
-       img="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=600"
+       img="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=300"
        location="Private room in
        center of london"
        title="Stay at this spacious
@@ -40,6 +40,39 @@ function SearchPage() {
        star={4.73}
        price="$36 / night"
        total="$124 total"
+       
+       />
+
+     <SearchResult 
+       img="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=300"
+       location="Private room in
+       center of london"
+       title="Stay at this spacious
+       Edwardian House"
+       description="1 guest . 1
+       bedroom . 1 bed . 1.5 shared
+       bathrooms . wifi . kitchen .
+       Free parking . Washing Washing Machine"
+       star={4.73}
+       price="$36 / night"
+       total="$124 total"
+       
+       />
+
+     <SearchResult 
+       img="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=300"
+       location="Private room in
+       center of london"
+       title="Stay at this spacious
+       Edwardian House"
+       description="1 guest . 1
+       bedroom . 1 bed . 1.5 shared
+       bathrooms . wifi . kitchen .
+       Free parking . Washing Washing Machine"
+       star={4.73}
+       price="$36 / night"
+       total="$124 total"
+       
        />
     </div>
   )

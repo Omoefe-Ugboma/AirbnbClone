@@ -1,5 +1,7 @@
 import React from 'react'
 import './SearchResult.css'
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import StarIcon from "@material-ui/icons/Star";
 
 
 function SearchResult({
@@ -36,6 +38,11 @@ function SearchResult({
              <p>
                 <strong>{star}</strong>
              </p>
+           </div>
+           <div
+           className='searchResult__price'>
+             <h2>{price}</h2>
+             <p>{total}</p>
            </div>
         </div>
 
