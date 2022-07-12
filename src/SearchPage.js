@@ -28,7 +28,7 @@ function SearchPage() {
           variant='outlined'>More filters</Button>
        </div>
        <SearchResult 
-       img="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=300"
+       img="https://images.pexels.com/photos/26139/pexels-photo-26139.jpg?auto=compress&cs=tinysrgb&w=300"
        location="Private room in
        center of london"
        title="Stay at this spacious
@@ -60,7 +60,55 @@ function SearchPage() {
        />
 
      <SearchResult 
-       img="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=300"
+       img="https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=300"
+       location="Private room in
+       center of london"
+       title="Stay at this spacious
+       Edwardian House"
+       description="1 guest . 1
+       bedroom . 1 bed . 1.5 shared
+       bathrooms . wifi . kitchen .
+       Free parking . Washing Washing Machine"
+       star={4.73}
+       price="$36 / night"
+       total="$124 total"
+       
+       />
+
+    <SearchResult 
+       img="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=300"
+       location="Private room in
+       center of london"
+       title="Stay at this spacious
+       Edwardian House"
+       description="1 guest . 1
+       bedroom . 1 bed . 1.5 shared
+       bathrooms . wifi . kitchen .
+       Free parking . Washing Washing Machine"
+       star={4.73}
+       price="$36 / night"
+       total="$124 total"
+       
+       />
+
+     <SearchResult 
+       img="https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=300"
+       location="Private room in
+       center of london"
+       title="Stay at this spacious
+       Edwardian House"
+       description="1 guest . 1
+       bedroom . 1 bed . 1.5 shared
+       bathrooms . wifi . kitchen .
+       Free parking . Washing Washing Machine"
+       star={4.73}
+       price="$36 / night"
+       total="$124 total"
+       
+       />
+
+     <SearchResult 
+       img="https://images.pexels.com/photos/137090/pexels-photo-137090.jpeg?auto=compress&cs=tinysrgb&w=300"
        location="Private room in
        center of london"
        title="Stay at this spacious
