@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='footer'>
         <p> &copy;Airbnb clone! No rights
-            reserved - this is a demo! and learning purpose</p> 
+            reserved - this is a demo! and it's for learning purpose</p> 
            <p>Privacy . Terms . Sitemap .
             Company Details
            </p>
